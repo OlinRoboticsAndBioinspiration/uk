@@ -366,10 +366,7 @@ def mocapCam(uk, y):
 
     return x
 
-try:
-  from vid import src
-except:
-  import sys; sys.exit(0)
+from vid import src
 
 def track(uk, srcs, fsrc, p0, wid=8):
     """
